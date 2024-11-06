@@ -1,0 +1,50 @@
+.app{
+  background-color: rgb(61, 151, 151);
+  color: black;
+  height: 800px;
+  width: 300%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+background-color: blanchedalmond;
+width: 500px;
+padding: 50px;
+border-radius: 10%;
+ box-shadow: 2px 4px 6px black;
+}
+.header{
+  text-align: center;
+
+}
+.header h1{
+  color: blue;
+  text-decoration: underline;
+  text-shadow: 2px 4px 6px black;
+}
+.total{
+  text-align: center;
+  color: green;
+  background-color: aqua;
+  border-radius: 10%;
+  box-shadow: 2px 4px 6px black;
+  margin: 20px;
+  padding: 20px;
+  
+}
+.total h2{
+  color: red;
+  font-size: 40px;
+}
+.input{
+  display: flex;
+  flex-direction:column ;
+  margin: 25px;
+
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+}
+
